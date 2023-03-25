@@ -1,0 +1,24 @@
+
+.ürünler{
+    color: rgb(255, 255, 255);
+    background-color: rgb(61, 61, 61);
+    
+    margin-right: 70%;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    
+}
+
+
+.ul1{
+ margin-top: -20px;   
+  border:solid;
+  width: 20%;
+ padding-left: 20px;
+    display: none;
+
+}
+.acilir-menü:hover .ul1{
+    display:block ;
+}

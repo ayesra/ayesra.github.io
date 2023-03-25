@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: xx-large;
+}
+
+.anne{
+    background-color: gray;
+    width: 12rem;
+    height: 12rem;
+    position: relative;
+}
+
+#menü{
+    background-color: rgb(182, 124, 14);
+    color: white;
+    padding: 0.5rem;
+}
+
+.cocuk1{
+    background-color: rgb(229, 150, 3);
+    padding: 0.5rem;
+    width: 2rem;
+    height: 12rem;
+    
+}
+
+.cocuk1:hover + .cocuk2{
+    display: block;
+    
+}
+#isaret{
+    background-color: rgb(182, 124, 14);
+    position: absolute;
+    padding: 0.5rem;
+    width: 2rem;
+    top: 0;
+    left: 0;
+}
+.cocuk2{
+    background-color: rgb(229, 150, 3);
+    position: absolute;
+    top: 0;
+    width: 9rem;
+    height: 12rem;
+    text-align: center;
+    display: none;
+
+}
+
+ul{
+    padding: 2rem;
+    list-style-type: none;
+    text-align: left;
+}
+
+#menü i{
+color: black;
+position: absolute;
+top: 1rem;
+right: 0.3rem;
+}

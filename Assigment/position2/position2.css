@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    display: block;
+}
+
+.search{
+    margin: 2rem;
+    height: 30px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.arama i {
+    position: relative;
+    left: -60px;
+    cursor: pointer;
+   
+}
+
+.senden{
+    margin-left: 2rem;
+    height: 35px;
+    width: 300px;
+    background-color: rgb(64, 63, 63);
+    border: 1px solid black;
+    border-radius: 18px;
+}
+
+button{
+    background-color: rgb(255, 208, 0);
+    height: 35px;
+    width: 80px;
+    border: 1px solid black;
+    border-radius: 20px;
+    position: relative;
+    left: -85px;
+    cursor: pointer;
+}
+
+
