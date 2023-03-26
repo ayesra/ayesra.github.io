@@ -1,0 +1,26 @@
+table{
+    width: 40rem;
+    height: 2rem;
+    text-align: right;
+}
+.tr1, .tr8{
+    background-color: rgb(53, 53, 53);
+    color: white;
+}
+
+.tr2-4-6{
+    background-color: lightgrey;
+}
+
+.tr3-5-7{
+    background-color: rgb(243, 242, 242);
+}
+
+button{
+    background-color: rgb(255, 136, 0);
+    color: white;
+    width: 9rem;
+    height: 2rem;
+    margin-top: 5px;
+    border: white;
+}
