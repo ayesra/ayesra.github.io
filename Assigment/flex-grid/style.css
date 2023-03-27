@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    background-color: rgb(33, 32, 32);
+    width: 600px;
+    height: 775px;
+    padding: 12px 4px;
+}
+
+header{
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    padding: 4px;
+}
+
+.logo{
+    background-color: rgb(91, 181, 91);
+    padding: 5px 3.5rem;
+}
+
+.menü{
+    background-color: rgb(75, 126, 213);
+    padding: 5px 9.3rem;
+}
+
+.banner{
+    background-color: red;
+    font-size: 28px;
+    padding: 5rem 13rem;
+}
+
+main{
+    margin: 1.8rem 4px;
+}
+
+.light-green{
+    background-color: rgb(92, 184, 92);
+    height: 8rem;
+    width: 34%;
+}
+
+.green{
+    display: flex;
+    gap: 3px;
+    margin: 10px 4px;
+}
+
+.yellow{
+    display: flex;
+    justify-content: space-around;
+    margin:4rem 3rem 1rem 3rem
+}
+
+.ylw{
+    background-color: orange;
+    width: 18%;
+    height: 5rem;
+}
+
+.yellow2{
+    width: 50%;
+}
+
+.green2{
+    display: flex;
+    justify-content: space-between;
+    margin: 2.5rem 1.5rem;
+}
+
+.dark-green{
+    background-color: green;
+    width: 18%;
+    height: 6rem;
+}
+
+.dark-green1, .dark-green4{
+    width: 27%;
+}
